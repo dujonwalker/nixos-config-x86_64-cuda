@@ -15,7 +15,7 @@ This repository contains the configuration for my NixOS installation. The purpos
 - **Systemd Service**: A custom systemd service is set up to install various Flatpak applications automatically after the network is online.
 - **State Version**: Set to "24.05" to avoid warnings.
 
-## Applications
+## Installed Applications
 
 This section provides a list of the key applications installed on the system along with a brief description of what each does.
 
@@ -54,12 +54,15 @@ This section provides a list of the key applications installed on the system alo
 - **notepadqq**: A Notepad++-like editor for Linux.
 - **koodo-reader**: An open-source eBook reader.
 - **qownnotes**: A plain-text file notepad with markdown support and todo list manager.
+- **ghostwriter**: A distraction-free Markdown editor.
+- **flatseal**: A graphical utility to review and modify permissions of Flatpak applications.
 
 ### Web Browsers
 - **falkon**: A KDE web browser using QtWebEngine.
 - **floorp**: A privacy-focused Firefox fork.
 - **ungoogled-chromium**: A lightweight approach to removing Google web service dependency from Chromium.
 - **librewolf**: A fork of Firefox, focused on privacy, security, and freedom.
+- **firefox**: A free and open-source web browser developed by Mozilla.
 
 ### Communication
 - **discord**: A VoIP, instant messaging, and digital distribution platform.
@@ -76,6 +79,8 @@ This section provides a list of the key applications installed on the system alo
 - **appimage-run**: A tool to run AppImage applications.
 - **switcheroo**: A simple application to convert between different image filetypes and resize them easily.
 - **p7zip**: A file archiver with a high compression ratio.
+- **strawberry**: A music player and music collection organizer.
+- **ollama**: A service that provides CUDA-accelerated machine learning capabilities.
 
 ## How to Run the Configuration
 
