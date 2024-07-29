@@ -83,7 +83,7 @@ After logging into NixOS for the first time, follow these steps to apply this co
 
 1. **Download the Configuration File**:
     ```sh
-    curl -kLO https://github.com/dujonwalker/nixos-config-x86_64-cuda.git/raw/branch/main/configuration.nix
+    curl -kLO https://raw.githubusercontent.com/dujonwalker/nixos-config-x86_64-cuda/main/configuration.nix
     ```
 
 2. **Copy the Configuration File**:
