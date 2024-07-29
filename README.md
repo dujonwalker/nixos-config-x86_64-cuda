@@ -5,12 +5,14 @@ This repository contains the configuration for my NixOS installation. The purpos
 ## System Configuration Highlights
 
 - **CUDA enabled**: For 64-bit x86 PC's with NVidia GPUs. Tested on a Dell Inspiron 15 7559 (i7-6700HQ / GTX 960M)
-- **X Server**: Enabled with SDDM display manager and Plasma 6 desktop environment.
+- **Plasma 6**: Enabled with wayland and Plasma 6 desktop environment.
 - **Audio**: PipeWire is enabled with ALSA support, and PulseAudio is disabled.
 - **Flatpak**: Enabled to allow installation of Flatpak applications, with Flathub options.
 - **Updated kernel**: Updated to use linux kernel version 6.8.12, rather than the default, 6.6.
-- **Auto updates enabled**: Safely, and with auto-cleanup.
+- **Auto updates enabled**: Safely, with auto-cleanup.
 - **Additional extensions**: Auto-downloads and installs extensions for Firefox and VSCode
+- **Windows applications**: Includes Wine for running Windows applications
+- **Virtualization**: Includes virt-manager for running Windows and other OS'
 
 ## Installed Applications
 
@@ -20,7 +22,6 @@ This section provides a list of the key applications installed on the system alo
 - **cifs-utils**: Provides tools for mounting and managing CIFS (SMB) network file systems.
 - **parted**: A partition manipulation program.
 - **mc**: Midnight Commander, a visual file manager.
-- **openssl**: A robust, full-featured open-source toolkit implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.
 
 ### Development Tools
 - **git**: A distributed version control system.
@@ -33,10 +34,7 @@ This section provides a list of the key applications installed on the system alo
 - **vlc**: A free and open-source cross-platform multimedia player.
 - **mpv**: A free, open-source, and cross-platform media player.
 - **obs-studio**: Open Broadcaster Software, a free and open-source software for video recording and live streaming.
-- **obs-cli**: A command-line interface for OBS Studio.
-- **obs-do**: A plugin for OBS Studio to add additional functionalities.
 - **obs-studio-plugins.obs-ndi**: NDI plugin for OBS Studio.
-- **obs-studio-plugins.obs-tuna**: Now Playing plugin for OBS Studio.
 - **obs-studio-plugins.obs-pipewire-audio-capture**: PipeWire audio capture plugin for OBS Studio.
 - **upscayl**: AI-powered image upscaling application.
 - **converseen**: A batch image converter and resizer.
