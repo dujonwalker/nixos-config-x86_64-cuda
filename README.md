@@ -2,18 +2,15 @@
 
 This repository contains the configuration for my NixOS installation. The purpose is to maintain this config file on a personal Gitea instance for backup and for quick and easy restores. Below is a detailed breakdown of what this configuration sets up once it's run on a new NixOS install.
 
-## System Configuration
+## System Configuration Highlights
 
-- **Networking**: NetworkManager is enabled and the hostname is set to "nixos".
-- **Time Zone**: Set to "America/New_York".
-- **Locale**: Default locale is "en_US.UTF-8", with additional locale settings.
+- **CUDA enabled**: For 64-bit x86 PC's with NVidia GPUs. Tested on a Dell Inspiron 15 7559 (i7-6700HQ / GTX 960M)
 - **X Server**: Enabled with SDDM display manager and Plasma 6 desktop environment.
-- **Printing**: Printing services are enabled.
 - **Audio**: PipeWire is enabled with ALSA support, and PulseAudio is disabled.
-- **User**: A user named "user" is created, with additional software packages installed.
-- **Flatpak**: Enabled to allow installation of Flatpak applications.
-- **Systemd Service**: A custom systemd service is set up to install various Flatpak applications automatically after the network is online.
-- **State Version**: Set to "24.05" to avoid warnings.
+- **Flatpak**: Enabled to allow installation of Flatpak applications, with Flathub options.
+- **Updated kernel**: Updated to use linux kernel version 6.8.12, rather than the default, 6.6.
+- **Auto updates enabled**: Safely, and with auto-cleanup.
+- **Additional extensions**: Auto-downloads and installs extensions for Firefox and VSCode
 
 ## Installed Applications
 
