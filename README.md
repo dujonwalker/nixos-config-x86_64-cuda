@@ -9,10 +9,10 @@ This repository contains the configuration for my NixOS installation. The purpos
 - **Audio**: PipeWire is enabled with ALSA support, and PulseAudio is disabled.
 - **Flatpak**: Enabled to allow installation of Flatpak applications, with Flathub options.
 - **Updated kernel**: Updated to use linux kernel version 6.8.12, rather than the default, 6.6.
-- **Auto updates enabled**: Safely, with auto-cleanup.
-- **Additional extensions**: Auto-downloads and installs extensions for Firefox and VSCode
-- **Windows applications**: Includes Wine for running Windows applications
-- **Virtualization**: Includes virt-manager for running Windows and other OS'
+- **Auto updates enabled**: With auto-cleanup enabled.
+- **Additional extensions**: Auto-downloads and installs extensions for Firefox and VSCode.
+- **Windows applications**: Includes Wine for running Windows applications.
+- **Virtualization**: Includes virt-manager for running Windows 11 and other OS'.
 
 ## Installed Applications
 
