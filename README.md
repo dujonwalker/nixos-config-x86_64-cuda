@@ -4,7 +4,7 @@ This repository contains the configuration for my NixOS installation. The purpos
 
 ## System Configuration Highlights
 
-- **CUDA enabled**: For 64-bit x86 PC's with NVidia GPUs. Tested on a Dell Inspiron 15 7559 (i7-6700HQ / GTX 960M)
+- **CUDA enabled**: Optimized for 64-bit x86 PC's with Nvidia GPUs. Tested on a Dell Inspiron 15 7559 (i7-6700HQ / GTX 960M)
 - **Plasma 6**: Enabled with wayland and Plasma 6 desktop environment.
 - **Audio**: PipeWire is enabled with ALSA support, and PulseAudio is disabled.
 - **Flatpak**: Enabled to allow installation of Flatpak applications, with Flathub options.
